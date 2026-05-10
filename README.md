@@ -18,7 +18,7 @@ ___
 ___
 ### 1. Установите зависимости:
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ### 2. Создайте файл ```.env``` в папке SpyBattleDota2Heroes и вставьте туда токен бота и юзернейм админа в файле:
 ```text
