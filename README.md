@@ -16,16 +16,23 @@ cd SpyBattleDota2Heroes
 ___
 ## Запуск
 ___
-### 1. Установи зависимости:
+### 1. Установите зависимости:
 ```bash
    pip install -r requirements.txt
 ```
-### 2. Задай токен бота и юзернейм админа в файле ```.env```:
+### 2. Создайте файл ```.env``` в папке SpyBattleDota2Heroes и вставьте туда токен бота и юзернейм админа в файле:
 ```text
 BOT_TOKEN=token
 ADMIN_USERNAME=username
+
+# Настройки прокси (пример для SOCKS5)
+PROXY_TYPE=socks5
+PROXY_HOST=ваш_прокси_хост  # например 127.0.0.1 или адрес прокси
+PROXY_PORT=1080
+PROXY_USERNAME=  # если нужна авторизация, иначе оставьте пустым
+PROXY_PASSWORD=  # если нужна авторизация
 ```
-### 3. Запусти бота:
+### 3. Запустите бота:
 ```bash
 python main.py
 ```
